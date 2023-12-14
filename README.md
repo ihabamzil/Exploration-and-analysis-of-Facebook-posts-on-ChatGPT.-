@@ -7,7 +7,7 @@ Run the main script to extract Facebook posts, preprocess the text, and generate
 
 python main_script.py
 
-# Web Scraping and Data Extraction
+### Web Scraping and Data Extraction
 The project uses Selenium for web scraping to extract Facebook posts. Ensure you have the ChromeDriver installed and set the correct path in the CHROME_DRIVER variable in the script.
 
 # Text Preprocessing
