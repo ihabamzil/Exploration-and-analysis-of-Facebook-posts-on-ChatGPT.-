@@ -5,8 +5,6 @@ This project is designed to extract and analyze Facebook posts from a specified 
 # Usage
 Run the main script to extract Facebook posts, preprocess the text, and generate insights. You can customize the parameters in the script to suit your needs.
 
-python main_script.py
-
 ## Web Scraping and Data Extraction
 The project uses Selenium for web scraping to extract Facebook posts. Ensure you have the ChromeDriver installed and set the correct path in the CHROME_DRIVER variable in the script.
 
@@ -32,13 +30,9 @@ NLTK
 Scikit-learn
 Gensim
 pyLDAvis
-Include any other relevant libraries or modules.
-
-## Contributing
-Contributions to this project are welcome. If you find issues or have suggestions, please follow the contribution guidelines in the CONTRIBUTING.md file.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the apache.LICENSE-2.0 License.
 
 ## Acknowledgements
 Special thanks to the contributors of the libraries used in this project.
