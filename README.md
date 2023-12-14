@@ -1,9 +1,12 @@
 # Exploration-and-analysis-of-Facebook-posts-on-ChatGPT.
+# Summary
+This project is designed to extract and analyze Facebook posts from a specified page. It utilizes web scraping with Selenium for data extraction, followed by extensive text preprocessing, including cleaning, stemming, and lemmatization. The processed data is then subjected to topic modeling using Latent Dirichlet Allocation (LDA), providing insights into prevalent themes. Additionally, word clouds are generated to visually represent significant words in the text, offering a concise summary of the extracted information. The README file provides detailed instructions on how to use the project, prerequisites, and acknowledgments for the libraries used.
 
 # Usage
 Run the main script to extract Facebook posts, preprocess the text, and generate insights. You can customize the parameters in the script to suit your needs.
 
 python main_script.py
+
 # Web Scraping and Data Extraction
 The project uses Selenium for web scraping to extract Facebook posts. Ensure you have the ChromeDriver installed and set the correct path in the CHROME_DRIVER variable in the script.
 
